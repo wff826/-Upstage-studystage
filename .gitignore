@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.env
+.env.*
+pip-log.txt
+
+# Streamlit
+.streamlit/
+
+# SQLite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
