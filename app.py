@@ -14,7 +14,7 @@ API_KEY = os.getenv("UPSTAGE_API_KEY")
 SQLITE_PATH = os.getenv("SQLITE_PATH", "./study.db")
 VECTOR_DIR = os.getenv("VECTOR_DB_DIR", "./data/index")
 
-st.set_page_config(page_title="StudyStage Pro", layout="wide")
+st.set_page_config(page_title="StudyStage", layout="wide")
 
 
 # Init
@@ -26,7 +26,7 @@ db = HistoryDB(SQLITE_PATH)
 
 
 # UI
-st.title("📚 StudyStage — 맞춤형 학습 코치")
+st.title("📚 StudyStage — 멀티 문서 기반 맞춤 AI 학습 코치")
 
 tab_upload, tab_qa, tab_quiz, tab_plan = st.tabs(
     ["1) 문서 업로드", "2) Q&A", "3) Quiz ", "4) 학습 루트 추천"]
